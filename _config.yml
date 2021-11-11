@@ -104,4 +104,4 @@ theme: next   #主题改为next
 deploy:
   type: git
   repository: https://github.com/Kumokasumi/kumokasumi.github.io  #仓库地址
-  branch: main
+  branch: gh-pages
