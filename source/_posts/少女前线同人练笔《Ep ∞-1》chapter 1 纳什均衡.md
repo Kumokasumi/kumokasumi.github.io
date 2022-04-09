@@ -1,5 +1,5 @@
 ---
-title: 少女前线同人练笔《Ep ∞-1》chapter 1 酒吧
+title: 少女前线同人练笔《Ep ∞-1》chapter 1 纳什均衡
 date: 2022-4-5 19:53:11
 tags: 
 - [少女前线]
