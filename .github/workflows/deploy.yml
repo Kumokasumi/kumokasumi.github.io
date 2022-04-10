@@ -23,6 +23,8 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: 安装依赖
         run: npm install
+      - name: 修正提交时间
+        run: git ls-files -z | while read -d '' path; do touch -d "$(git log -1 --format="@%ct" "$path")" "$path"; done
       - name: 编译
         run: npm run build
       - name: 发布
