@@ -20,6 +20,6 @@ type: "about"
 欢迎你看到这里:)。
 
 ## 我的联系方式
-QQ：2803273730
-wechat：<u> </u>unka<u> </u>    
-Email：kwenkasumi@gmail.com
+QQ：2803273730；
+wechat：<u> </u>unka<u> </u>；
+Email：kwenkasumi@gmail.com；
