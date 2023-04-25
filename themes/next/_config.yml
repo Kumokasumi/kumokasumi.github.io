@@ -994,7 +994,6 @@ css: css
 js: js
 images: images
 
-<<<<<<< HEAD
 gittalk:
   enable: true
   mint: true
@@ -1008,6 +1007,4 @@ gittalk:
   client secret: cd2403d597ae0712a7206282fd2d35ba900a0be9 #上面注册OAuth Application申请的client secret
   proxy_gateway:
   redirect_protocol:  #Protocol of redirect_uri with force_redirect_protocol when mint
-=======
 
->>>>>>> 3a7a6ae31ed8d73657763f2e46c87fd7788de889
