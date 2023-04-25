@@ -105,20 +105,3 @@ deploy:
   type: git
   repository: https://github.com/Kumokasumi/kumokasumi.github.io  #仓库地址
   branch: gh-pages
-
-  # Gitalk
-# For more information: https://gitalk.github.io
-gitalk:
-  enable: true
-  github_id: Kumokasumi # GitHub repo owner
-  repo: kumokasumi.github.io # Repository name to store issues
-  client_id: b5aa0867035cc69b01da # GitHub Application Client ID
-  client_secret: f5da8ec82a3a94a2b9b90bff922109ecb44e9246 # GitHub Application Client Secret
-  admin_user: Kumokasumi # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
-  distraction_free_mode: true # Facebook-like distraction free mode
-  # When the official proxy is not available, you can change it to your own proxy address
-  proxy: https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token # This is official proxy adress
-  # Gitalk's display language depends on user's browser or system environment
-  # If you want everyone visiting your site to see a uniform language, you can set a force language value
-  # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
-  language: zh-CN
