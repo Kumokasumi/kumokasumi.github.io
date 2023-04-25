@@ -993,3 +993,17 @@ vendors:
 css: css
 js: js
 images: images
+
+gitment:
+  enable: true
+  mint: true
+  count: true
+  lazy: false #评论懒加载，如果true,则默认不展示评论，点击按钮查看评论
+  cleanly: false
+  language:
+  github user: Kumokasumi
+  github_repo: snowcommit #上一步新建存放评论的仓库名
+  client id: b5aa0867035cc69b01da #上面注册OAuth Application的client ID
+  client secret: cd2403d597ae0712a7206282fd2d35ba900a0be9 #上面注册OAuth Application申请的client secret
+  proxy_gateway:
+  redirect_protocol:  #Protocol of redirect_uri with force_redirect_protocol when mint
