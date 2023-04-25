@@ -993,3 +993,20 @@ vendors:
 css: css
 js: js
 images: images
+
+# Gitalk
+# For more information: https://gitalk.github.io
+gitalk:
+  enable: true
+  github_id: Kumokasumi # GitHub repo owner
+  repo: snowcommit # Repository name to store issues
+  client_id: b5aa0867035cc69b01da # GitHub Application Client ID
+  client_secret: cd2403d597ae0712a7206282fd2d35ba900a0be9 # GitHub Application Client Secret
+  admin_user: Kumokasumi # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  distraction_free_mode: true # Facebook-like distraction free mode
+  # When the official proxy is not available, you can change it to your own proxy address
+  proxy: https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token # This is official proxy adress
+  # Gitalk's display language depends on user's browser or system environment
+  # If you want everyone visiting your site to see a uniform language, you can set a force language value
+  # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
+  language: zh-CN
