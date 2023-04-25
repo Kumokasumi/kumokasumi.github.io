@@ -994,7 +994,7 @@ css: css
 js: js
 images: images
 
-gitment:
+gittalk:
   enable: true
   mint: true
   count: true
