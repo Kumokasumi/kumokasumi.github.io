@@ -631,18 +631,22 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
-  enable: false
-  github_id: # GitHub repo owner
-  repo: # Repository name to store issues
-  client_id: # GitHub Application Client ID
-  client_secret: # GitHub Application Client Secret
-  admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  enable: true
+  mint: true
+  count: true
+  lazy: false #评论懒加载，如果true,则默认不展示评论，点击按钮查看评论
+  cleanly: false
+  language:
+  github_id:  Kumokasumi
+  github_repo: snowcommit #上一步新建存放评论的仓库名
+  client id: b5aa0867035cc69b01da #上面注册OAuth Application的client ID
+  client secret: cd2403d597ae0712a7206282fd2d35ba900a0be9 #上面注册OAuth Application申请的client secret
+  admin_user: Kumokasumi  # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
   language:
-
 
 # ---------------------------------------------------------------
 # Post Widgets & Content Sharing Services
@@ -993,18 +997,4 @@ vendors:
 css: css
 js: js
 images: images
-
-gittalk:
-  enable: true
-  mint: true
-  count: true
-  lazy: false #评论懒加载，如果true,则默认不展示评论，点击按钮查看评论
-  cleanly: false
-  language:
-  github user: Kumokasumi
-  github_repo: snowcommit #上一步新建存放评论的仓库名
-  client id: b5aa0867035cc69b01da #上面注册OAuth Application的client ID
-  client secret: cd2403d597ae0712a7206282fd2d35ba900a0be9 #上面注册OAuth Application申请的client secret
-  proxy_gateway:
-  redirect_protocol:  #Protocol of redirect_uri with force_redirect_protocol when mint
 
