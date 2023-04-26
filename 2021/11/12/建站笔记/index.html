@@ -208,9 +208,21 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>费劲心思终于把整个站点折腾完了，想了想还是留下一些笔记，不至于未来的某一天我把整个过程给忘了。<br> <span id="more"></span></p>
-<h2 id="先说起因"><a href="#先说起因" class="headerlink" title="先说起因"></a>先说起因</h2><p>之前的杂七杂八内容都放在<a target="_blank" rel="noopener" href="https://kumokasumi.lofter.com/">我的lofter</a>里的，但是奈何lofter使用手感不是那么好。而且本身lofter还带有一定社交性，这总会激发人们通过创作“吸引人”的内容来享受社交快感的欲望。<br>不过对我来说，我只是需要一个尘封在角落等待有人去打开它的箱子，所以便打算搞一个独立的站点。<br>最后因为萌娘百科发生的一些事，我意识到一些思想和观点即使非常理性，但是在特定的语言环境和氛围，乃至特定的集体情绪下是难以被理解的——这在萌娘百科以外的地方也一样——因此也有了转移一些内容到独立站点的想法。<br>虽然可能不会有什么反馈和沟通，但是至少任何有机会看到这些文字的人不会出于太多外界原因而误解我的想法。</p>
-<h2 id="建站细节"><a href="#建站细节" class="headerlink" title="建站细节"></a>建站细节</h2><p>github已经足够满足我的需求，所以首先用git来做本地库和github绑定，因为后续用的是hexo做博客，所以在github里做了两个分支，一个放源码，一个放编译，这是后话了。<br>题外话：github觉得之前默认分支用<code>master</code>这个名字太奴隶制度不够政治正确，就把<code>master</code>改成了<code>main</code>，感觉很搞。虽然说github做了自动重定向确保不会出问题，但是一开始折腾的时候还是造成了一些麻烦。<br>一般Git Bash都会自带ssh，不过不放心的话可以用<code>ssh</code>指令确认下是否安装。然后用<code>ssh-keygen -t rsa</code>生成一个SHH密钥，把公钥<code>id_rsa.pub</code>的内容扔到github个人设置里的key里就可以了。<br>初期的过程比较麻烦，Git Bash要来回折腾指令，所以按下不表，后续我用TortoiseGit做拉取同步和提交，缺点就是好像得走代理端口，不然通信会出错。<br><code>Hexo</code>需要<code>Node.js</code>支持，加上<code>Node.js</code>经常不知为何不好用，所以我参考别人的做法，安装的时候自定义了下系统变量和用户变量。<br><code>Node.js</code>需要装<code>wabpack</code>这个模块，本来用<code>npm install webpack -g</code>就可以一键搞定，但是记得管理员启动<code>cmd</code>，不然报错。至于为什么就很迷惑，难道是自定义了变量的原因？<br>之后的维护过程就比较简单，用Git Bash创建页面，写好之后就是用<code>hexo g</code>和<code>hexo s</code>预览一下，TortoiseGit提交源码，再用Git Bash的<code>hexo d</code>推上去。不过不知为何Git Bash经常断通信。</p>
+        <p>费劲心思终于把整个站点折腾完了，想了想还是留下一些笔记，不至于未来的某一天我把整个过程给忘了。</p>
+ <span id="more"></span>
+<h2 id="先说起因"><a class="markdownIt-Anchor" href="#先说起因"></a> 先说起因</h2>
+<p>之前的杂七杂八内容都放在<a target="_blank" rel="noopener" href="https://kumokasumi.lofter.com/">我的lofter</a>里的，但是奈何lofter使用手感不是那么好。而且本身lofter还带有一定社交性，这总会激发人们通过创作“吸引人”的内容来享受社交快感的欲望。<br />
+不过对我来说，我只是需要一个尘封在角落等待有人去打开它的箱子，所以便打算搞一个独立的站点。<br />
+最后因为萌娘百科发生的一些事，我意识到一些思想和观点即使非常理性，但是在特定的语言环境和氛围，乃至特定的集体情绪下是难以被理解的——这在萌娘百科以外的地方也一样——因此也有了转移一些内容到独立站点的想法。<br />
+虽然可能不会有什么反馈和沟通，但是至少任何有机会看到这些文字的人不会出于太多外界原因而误解我的想法。</p>
+<h2 id="建站细节"><a class="markdownIt-Anchor" href="#建站细节"></a> 建站细节</h2>
+<p>github已经足够满足我的需求，所以首先用git来做本地库和github绑定，因为后续用的是hexo做博客，所以在github里做了两个分支，一个放源码，一个放编译，这是后话了。<br />
+题外话：github觉得之前默认分支用<code>master</code>这个名字太奴隶制度不够政治正确，就把<code>master</code>改成了<code>main</code>，感觉很搞。虽然说github做了自动重定向确保不会出问题，但是一开始折腾的时候还是造成了一些麻烦。<br />
+一般Git Bash都会自带ssh，不过不放心的话可以用<code>ssh</code>指令确认下是否安装。然后用<code>ssh-keygen -t rsa</code>生成一个SHH密钥，把公钥<code>id_rsa.pub</code>的内容扔到github个人设置里的key里就可以了。<br />
+初期的过程比较麻烦，Git Bash要来回折腾指令，所以按下不表，后续我用TortoiseGit做拉取同步和提交，缺点就是好像得走代理端口，不然通信会出错。<br />
+<code>Hexo</code>需要<code>Node.js</code>支持，加上<code>Node.js</code>经常不知为何不好用，所以我参考别人的做法，安装的时候自定义了下系统变量和用户变量。<br />
+<code>Node.js</code>需要装<code>wabpack</code>这个模块，本来用<code>npm install webpack -g</code>就可以一键搞定，但是记得管理员启动<code>cmd</code>，不然报错。至于为什么就很迷惑，难道是自定义了变量的原因？<br />
+之后的维护过程就比较简单，用Git Bash创建页面，写好之后就是用<code>hexo g</code>和<code>hexo s</code>预览一下，TortoiseGit提交源码，再用Git Bash的<code>hexo d</code>推上去。不过不知为何Git Bash经常断通信。</p>
 
     </div>
 
@@ -315,7 +327,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%88%E8%AF%B4%E8%B5%B7%E5%9B%A0"><span class="nav-number">1.</span> <span class="nav-text">先说起因</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BB%BA%E7%AB%99%E7%BB%86%E8%8A%82"><span class="nav-number">2.</span> <span class="nav-text">建站细节</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%88%E8%AF%B4%E8%B5%B7%E5%9B%A0"><span class="nav-number">1.</span> <span class="nav-text"> 先说起因</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BB%BA%E7%AB%99%E7%BB%86%E8%8A%82"><span class="nav-number">2.</span> <span class="nav-text"> 建站细节</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -421,6 +433,8 @@
 
 
 
+
+  
 
   
 
