@@ -194,9 +194,9 @@ social_icons:
 # Blog rolls
 links_settings:
   icon: fa fa-link
-  title: Links
+  title: 看看我的朋友们 
   # Available values: block | inline
-  layout: block
+  layout: inline
 
 links:
   Solar System Ⅱ : https://ksbeeper.wordpress.com/
