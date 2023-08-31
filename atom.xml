@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-08-28T09:06:43.000Z</updated>
+  <updated>2023-08-31T08:06:37.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,29 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>ThinkBook Plus G3 IAP 使用体验</title>
+    <link href="http://example.com/2023/08/31/ThinkBook%20Plus%20G3%20IAP%20%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/"/>
+    <id>http://example.com/2023/08/31/ThinkBook%20Plus%20G3%20IAP%20%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/</id>
+    <published>2023-08-31T08:05:19.000Z</published>
+    <updated>2023-08-31T08:06:37.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;感觉一直用的办公本surface book实在顶不住了，于是决定换一个新的&lt;/p&gt;
+&lt;p&gt;外头的名称应该叫ThinkBook 17 Plus，但是不知为啥正式名称其实是ThinkBook Plus G3 IAP&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>深夜忽梦</title>
-    <link href="http://example.com/2023/08/27/%E6%B7%B1%E5%A4%9C%E5%BF%BD%E6%A2%A6/"/>
-    <id>http://example.com/2023/08/27/%E6%B7%B1%E5%A4%9C%E5%BF%BD%E6%A2%A6/</id>
-    <published>2023-08-27T21:02:11.000Z</published>
-    <updated>2023-08-28T09:06:43.000Z</updated>
+    <link href="http://example.com/2023/07/20/%E6%B7%B1%E5%A4%9C%E5%BF%BD%E6%A2%A6/"/>
+    <id>http://example.com/2023/07/20/%E6%B7%B1%E5%A4%9C%E5%BF%BD%E6%A2%A6/</id>
+    <published>2023-07-20T21:02:11.000Z</published>
+    <updated>2023-08-31T08:06:37.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;深夜忽梦·少年事&lt;br /&gt;
@@ -369,24 +387,6 @@
     
     
     <category term="日记" scheme="http://example.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>短评-《缀以为茨华仙》</title>
-    <link href="http://example.com/2018/06/16/%E7%9F%AD%E8%AF%84-%E3%80%8A%E7%BC%80%E4%BB%A5%E4%B8%BA%E8%8C%A8%E5%8D%8E%E4%BB%99%E3%80%8B/"/>
-    <id>http://example.com/2018/06/16/%E7%9F%AD%E8%AF%84-%E3%80%8A%E7%BC%80%E4%BB%A5%E4%B8%BA%E8%8C%A8%E5%8D%8E%E4%BB%99%E3%80%8B/</id>
-    <published>2018-06-16T04:00:07.000Z</published>
-    <updated>2023-04-23T16:18:43.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;善恶只有一纸之隔&lt;/p&gt;
-&lt;p&gt;阅读本文及漫画之前强烈建议阅读芥川龙之介的《罗生门》&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="杂物" scheme="http://example.com/tags/%E6%9D%82%E7%89%A9/"/>
     
   </entry>
   
