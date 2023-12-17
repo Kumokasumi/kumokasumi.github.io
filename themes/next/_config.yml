@@ -194,12 +194,15 @@ social_icons:
 # Blog rolls
 links_settings:
   icon: fa fa-link
-  title: Links
+  title: 看看我的朋友们 
   # Available values: block | inline
-  layout: block
+  layout: inline
 
 links:
-  #Title: http://yoursite.com
+  #Solar System Ⅱ : https://ksbeeper.wordpress.com/
+  哞菇@Nekotora : https://flag.moe/
+  充满魔力的土地下 : http://touhoudog.net/
+  爱丽丝的人偶屋 : https://www.alicem.top/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
